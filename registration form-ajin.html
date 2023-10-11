@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+
+
+    <style>
+        body {
+            background-image: url('regi.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: 'Josefin Sans', sans-serif;
+
+        }
+
+        #main-header {
+            text-align: center;
+            background-color: white;
+            width: 35%;
+            margin: 100px auto;
+            padding: 30px 20px;
+            border-radius: 5px;
+            box-shadow: 10px 25px 50px #2e2e2e;
+        }
+
+        #reg-head {
+            font-family: 'Josefin Sans', sans-serif;
+            text-align: center;
+            font-size: 50px;
+        }
+
+        .user-input {
+            padding: 10px 5px;
+            border: 1px solid rgb(192, 192, 192);
+            border-radius: 4px;
+            margin-bottom: 15px;
+            width: 80%;
+            box-sizing: border-box;
+        }
+
+        .user-input-button {
+            padding: 10px 5px;
+            border: 1px solid rgb(192, 192, 192);
+            border-radius: 4px;
+            margin-bottom: 15px;
+            width: 80%;
+            box-sizing: border-box;
+            color: white;
+            background: rgb(7, 0, 136);
+            background: linear-gradient(90deg, rgba(7, 0, 136, 1) 0%, rgba(3, 98, 179, 1) 50%, rgba(0, 198, 196, 1) 100%);
+        }
+
+        .icon-img {
+            width: 40px;
+            margin: 10px 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div id="main-header">
+
+        <h1 id="reg-head">Registration</h1>
+
+        <form action="/registration form.html">
+            <div>
+                <input class="user-input" type="text" placeholder="Name">
+            </div>
+            <div>
+                <input class="user-input" type="number" placeholder="Age">
+            </div>
+
+            <select class="user-input">
+                <option selected>Gender</option>
+                <option value="male">Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+            <div>
+                <input class="user-input" type="number" placeholder="Phone">
+            </div>
+            <div>
+                <textarea class="user-input" placeholder="Address"></textarea>
+            </div>
+            <div>
+                <input class="user-input" type="email" placeholder="Email">
+            </div>
+            <div>
+                <input class="user-input" type="password" placeholder="Password">
+            </div>
+            <div>
+                <input class="user-input-button" type="submit" value="Register" placeholder="Password">
+            </div>
+
+            <h4>You can sign up with</h4>
+
+
+            <a href="https://www.facebook.com/" ><img src="Images/facebook.png"
+                    class="icon-img"></a>
+            <a href="https://twitter.com/login?lang=en" ><img src="Images/twitter.png"
+                    class="icon-img"></a>
+            <a href="https://www.instagram.com/accounts/login/" class="fab fa-instagram"><img src="Images/instagram.png"
+                    class="icon-img"></a>
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
